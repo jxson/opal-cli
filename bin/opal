@@ -1,5 +1,44 @@
 #!/usr/bin/env node
 
-var program = require('command-router')
 var cli = require('../')
+var fs = require('fs')
+var errno = require('errno')
+var path = require('path')
 
+require('command-router')
+.on('notfound', function(){
+  help('index', function(){ process.exit(1) })
+})
+.command('help ?:topic?', function(params, options){
+  help(params.topic)
+})
+.command('login', cli.login)
+.parse(process.argv)
+
+function help(topic, callback){
+  topic = topic || 'index'
+  callback = callback || function(){}
+
+  var filename = path.resolve(__dirname, '../doc/cli/' + topic + '.md')
+
+  console.log() // newlines
+
+  fs
+  .createReadStream(filename)
+  .on('error', function(err){
+    var code = err.code
+    var description = errno.code[code].description
+
+    if (code === 'ENOENT') console.error('No help topic for:', topic)
+    else console.error(description)
+
+    console.log() // stick a newline at the end
+
+    process.exit(1)
+  })
+  .on('end', function(){
+    console.log() // newline at the end
+    callback()
+  })
+  .pipe(process.stdout)
+}
