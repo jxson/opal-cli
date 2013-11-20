@@ -1,0 +1,31 @@
+{
+  "name": "opal-cli",
+  "version": "0.0.0",
+  "description": "The opal.io CLI client.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jxson/opal-cli.git"
+  },
+  "keywords": [
+    "opal",
+    "messages",
+    "files",
+    "cli"
+  ],
+  "author": "Jason Campbell <jason@js.la> (http://artifact.sh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jxson/opal-cli/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0"
+  },
+  "dependencies": {
+    "command-router": "0.0.6",
+    "hacker-deps": "0.0.1"
+  }
+}

@@ -1,0 +1,140 @@
+ 31.8%    James Halliday (substack)
+
+    hacker-deps    optimist               browser-pack   deps-sort
+    commondir      insert-module-globals  module-deps    quotemeta
+    resolve        mkdirp                 findit         text-table
+    wordwrap       detective              nub            http-browserify
+    vm-browserify  minimist               lexical-scope  tape
+    astw           deep-equal             defined
+
+  9.9%    TJ Holowaychuk (visionmedia)
+
+    mocha  ejs   commander  debug
+    growl  jade
+
+  8.6%    Hugh Kennedy (hughsk)
+
+    colony  disc  reqursive  file-size-tree
+    flat
+
+  7.7%    Dominic Tarr (dominictarr)
+
+    crypto-browserify  JSONStream  through
+
+  6.8%    Isaac Z. Schlueter (isaacs)
+
+    nopt         once       glob       abbrev
+    graceful-fs  minimatch  lru-cache  sigmund
+
+  5.3%    Jason Campbell (jxson)
+
+    opal-cli  command-router
+
+  2.0%    Tim Caswell (creationix)
+
+    jsonparse
+
+  1.9%    undefined
+
+    lexical-scope-test  custom  skip
+
+  1.9%    Thorsten Lorenz (thlorenz)
+
+    combine-source-map  convert-source-map  inline-source-map  parse-base64vlq-mappings
+
+  1.3%    Chris Dickinson (chrisdickinson)
+
+    bops  to-utf8
+
+  1.3%    Domenic Denicola (domenic)
+
+    opener
+
+  1.3%    kpdecker (kpdecker)
+
+    diff
+
+  1.3%    Christopher Jeffrey (chjj)
+
+    marked
+
+  1.3%    Raynos (Raynos)
+
+    console-browserify  duplexer
+
+  1.3%    Alex Gorbatchev (alexgorbatchev)
+
+    browser-builtins
+
+  1.3%    Caolan McMahon (caolan)
+
+    async
+
+  1.3%    Aaron Blohowiak (aaronblohowiak)
+
+    routes
+
+  1.3%    Roman Shtylman (shtylman)
+
+    process  browser-resolve
+
+  1.3%    Ryan McGrath (ryanmcgrath)
+
+    wrench
+
+  1.3%    Ivan Sagalaev (isagalaev)
+
+    highlight.js
+
+  1.2%    ariya (ariya)
+
+    esprima
+
+  1.1%    Max Ogden (maxogden)
+
+    concat-stream
+
+  1.0%    T. Jameson Little (beatgammit)
+
+    base64-js
+
+  0.6%    Brian J. Brennan (brianloveswords)
+
+    zlib-browserify
+
+  0.6%    isaacs (isaacs)
+
+    inherits
+
+  0.6%    Mathias Bynens (bestiejs)
+
+    punycode
+
+  0.6%    Julian Gruber (juliangruber)
+
+    constants-browserify
+
+  0.6%    Romain Beauxis (toots)
+
+    buffer-browserify
+
+  0.6%    Nick Fitzgerald (mozilla)
+
+    source-map
+
+  0.5%    James Burke (jrburke)
+
+    amdefine
+
+  0.4%    Constellation (Constellation)
+
+    escodegen
+
+  0.4%    David Chambers (davidchambers)
+
+    Base64
+
+  0.3%    Douglas Crockford (substack)
+
+    jsonify
+
