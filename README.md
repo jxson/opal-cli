@@ -2,6 +2,10 @@
 
 The Opal CLI client
 
+## Stability
+
+Experimental: Expect the unexpected. Please provide feedback on api and your use-case.
+
 # Installation
 
 Install with npm:

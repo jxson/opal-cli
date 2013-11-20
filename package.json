@@ -28,5 +28,6 @@
     "command-router": "0.0.6",
     "hacker-deps": "0.0.1",
     "errno": "~0.1.0"
-  }
+  },
+  "stability": "experimental"
 }
